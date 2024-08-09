@@ -1,75 +1,75 @@
-# Nuxt 3 Minimal Starter
+# Nuxt AI SaaS Platform
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Project Overview
+This project is a comprehensive AI-powered SaaS platform built with Nuxt, Vue, and TypeScript. The platform offers a range of features including user authentication, live chat, AI-based image, code, video, and music generation, as well as payment processing. The backend is powered by Supabase and Prisma, with AI services provided by OpenAI. The frontend is styled using Tailwind CSS, and payments are handled via Swipe.
 
-## Setup
+## Key Features
+- **Authentication**: Secure user login and registration.
+- **Live Chat**: Real-time communication for users.
+- **AI-Powered Image Generation**: Generate images using AI.
+- **AI-Powered Code Generation**: Generate code snippets with AI assistance.
+- **AI-Powered Video Generation**: Create videos using AI.
+- **AI-Powered Music Generation**: Compose music tracks with AI.
+- **Payment Processing**: Integrated payment gateway using Swipe.
 
-Make sure to install the dependencies:
+## Technologies Used
+- **Frontend**: Nuxt, Vue, TypeScript, Tailwind CSS
+- **Backend**: Supabase, Prisma
+- **AI Services**: OpenAI
+- **Payment Gateway**: Swipe
 
+## Prerequisites
+- Node.js and npm installed
+- Supabase account setup
+- Swipe account for payment processing
+
+## Getting Started
+
+### 1. Clone the Repository
 ```bash
-# npm
+git clone https://github.com/yourusername/nuxt-ai-saas.git
+cd nuxt-ai-saas
+```
+
+### 2. Install Dependencies
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+### 3. Set Up Environment Variables
+Create a .env file in the root directory with the necessary environment variables for Supabase, OpenAI, and Swipe.
 
-Start the development server on `http://localhost:3000`:
-
+Example .env file:
 ```bash
-# npm
+SUPABASE_URL=your-supabase-url
+SUPABASE_KEY=your-supabase-key
+OPENAI_API_KEY=your-openai-api-key
+STRIPE_API_KEY=your-stripe-api-key
+```
+
+### 4. Run the Development Server
+```bash
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Pages:
+### Landing Page:
+![Screenshot 2024-08-09 145501](https://github.com/user-attachments/assets/2506b3bf-106d-4719-bfb2-42ae6377cb36)
 
-Build the application for production:
+### Explore Page:
+![Screenshot 2024-08-09 145445](https://github.com/user-attachments/assets/1e6f72c4-39ce-4029-92fc-e03337515803)
 
-```bash
-# npm
-npm run build
+### Conversation Page:
+![Screenshot 2024-08-09 150442](https://github.com/user-attachments/assets/26ea541b-f9bd-413c-ad65-7eb22c8a8ed8)
 
-# pnpm
-pnpm run build
+### Image generation Page:
+![Screenshot 2024-08-09 150425](https://github.com/user-attachments/assets/a81d2e13-97a4-481d-adef-4a38590bc1fc)
 
-# yarn
-yarn build
+### Code generation Page:
+![Screenshot 2024-08-09 150526](https://github.com/user-attachments/assets/1977d556-9416-437e-b183-42bc085fe92a)
 
-# bun
-bun run build
-```
+### Music generation Page:
+![Screenshot 2024-08-09 150833](https://github.com/user-attachments/assets/e3afe555-b4f9-4d88-8b85-fbe1e06ba30f)
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+### Video generation Page:
+![Screenshot 2024-08-09 150855](https://github.com/user-attachments/assets/891cb72e-a362-4d0a-bd0d-8b7f5ea4742e)
